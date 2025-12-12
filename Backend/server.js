@@ -7,6 +7,7 @@ dotenv.config();
 
 import productRoute from "./routes/productRoutes.js";
 import { sql } from "./config/db.js";
+import { aj } from "./lib/arcjet.js";
 
 const app = express();
 const PORT = process.env.PORT || 8080;
